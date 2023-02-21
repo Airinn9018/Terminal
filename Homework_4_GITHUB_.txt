@@ -1,0 +1,262 @@
+JSON.
+1) Создать внешний репозиторий c названием JSON.
+2) Клонировать репозиторий JSON на локальный компьютер.
+$ git clone git@github.com:Airinn9018/JSON.git
+
+3) Внутри локального JSON создать файл “new.json”.
+Airin@Airin-PC MINGW64 ~
+$ cd ./JSON
+Airin@Airin-PC MINGW64 ~/JSON (main)
+$ touch new.json
+
+4) Добавить файл под гит.
+Airin@Airin-PC MINGW64 ~/JSON (main)
+$ git add new.json
+
+5) Закоммитить файл.Airin@Airin-PC MINGW64 ~/JSON (main)
+$ git commit -m "Modification_1" new.json
+
+6) Отправить файл на внешний GitHub репозиторий.
+Airin@Airin-PC MINGW64 ~/JSON (main)
+$ git push
+
+7) Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+Airin@Airin-PC MINGW64 ~/JSON (main)
+$ vim new.json
+$ cat new.json
+{ "person_name": " Ekaterina",
+  "age": 32,
+  "pet": " 1 cat",
+  "pet's_name": "Masya",
+  "expecting_salary": 100000
+}
+8) Отправить изменения на внешний репозиторий.
+Airin@Airin-PC MINGW64 ~/JSON (main)
+$ git add new.json
+$ git commit -m "Modification_2"
+$ git push
+
+9) Создать файл preferences.json
+Airin@Airin-PC MINGW64 ~/JSON (main)
+$ touch preferences.json
+
+10) В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+Airin@Airin-PC MINGW64 ~/JSON (main)
+$ vim preferences.json
+$ cat preferences.json
+{ "favorite_film": " Lord_of_the_rings",
+  "favorite_serial": "er",
+  "favorite_dish": "hamburger",
+  "favorite_season": "spring",
+  "interesting_country": "japan"
+
+11) Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+Airin@Airin-PC MINGW64 ~/JSON (main)
+$ touch skills.json
+$ vim skills.json
+
+12) Отправить сразу 2 файла на внешний репозиторий.Airin@Airin-PC MINGW64 ~/JSON (main)
+$ git add preferences.json skills.json
+$ git commit -m "Modified"
+$ git push
+13) На веб интерфейсе создать файл bug_report.json.
+14) Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+15) На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+16) Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+17) Синхронизировать внешний и локальный репозиторий JSON
+$ git pull
+Airin@Airin-PC MINGW64 ~/JSON (main)
+$ ls -l
+total 11
+-rw-r--r-- 1 Airin 197121    6 Feb 21 04:44 README.md
+-rw-r--r-- 1 Airin 197121  718 Feb 21 04:44 bug_report.json
+-rw-r--r-- 1 Airin 197121  125 Feb 21 04:44 new.json
+-rw-r--r-- 1 Airin 197121  166 Feb 21 02:56 preferences.json
+-rw-r--r-- 1 Airin 197121 2592 Feb 21 03:23 skills.json
+
+
+XML.
+1) Создать внешний репозиторий c названием XML.
+2) Клонировать репозиторий XML на локальный компьютер.
+Airin@Airin-PC MINGW64 ~
+$ git clone git@github.com:Airinn9018/XML.git
+
+3) Внутри локального XML создать файл “new.xml”.
+Airin@Airin-PC MINGW64 ~
+$ cd ./XML
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ touch new.xml
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ ls -l
+total 1
+-rw-r--r-- 1 Airin 197121 5 Feb 21 04:52 README.md
+-rw-r--r-- 1 Airin 197121 0 Feb 21 04:53 new.xml
+4) Добавить файл под гит.
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ git add new.xml
+
+5) Закоммитить файл.
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ git commit -m "Modification_1"
+
+6) Отправить файл на внешний GitHub репозиторий.
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ git push
+
+7) Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ vim new.xml
+8) Отправить изменения на внешний репозиторий.
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ git add new.xml
+$ git commit -m "Modification_2"
+$ git push
+
+9) Создать файл preferences.xml
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ touch preferences.xml
+
+10) В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ vim preferences.xml
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ cat preferences.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+<favorite_film> Lord_of_the_rings </favorite_film>
+<favorite_serial> er </favorite_serial>
+<favorite_dish> hamburger </favorite_dish>
+<favorite_season> spring </favorite_season>
+<interesting_country> japan </interesting_country>
+</preferences
+
+11) Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ touch skills.xml
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ vim skills.xml
+
+12) Сделать коммит в одну строку.
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ git add preferences.xml skills.xml
+$ git commit -m "Modified"
+
+13) Отправить сразу 2 файла на внешний репозиторий.
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ git push
+
+14) На веб интерфейсе создать файл bug_report.xml.
+15) Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+16) На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+17) Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+18) Синхронизировать внешний и локальный репозиторий XML
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ git pull
+
+Airin@Airin-PC MINGW64 ~/XML (main)
+$ ls -l
+total 11
+-rw-r--r-- 1 Airin 197121    5 Feb 21 04:52 README.md
+-rw-r--r-- 1 Airin 197121  956 Feb 21 05:58 bug_report.xml
+-rw-r--r-- 1 Airin 197121  184 Feb 21 05:26 new.xml
+-rw-r--r-- 1 Airin 197121  297 Feb 21 05:38 preferences.xml
+-rw-r--r-- 1 Airin 197121 2538 Feb 21 05:42 skills.xml
+
+
+
+
+TXT.
+1) Создать внешний репозиторий c названием TXT.
+2) Клонировать репозиторий TXT на локальный компьютер.
+Airin@Airin-PC MINGW64 ~
+$ git clone git@github.com:Airinn9018/TXT.git
+
+3) Внутри локального TXT создать файл “new.txt”.
+Airin@Airin-PC MINGW64 ~
+$ cd ./TXT/
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ touch new.txt
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ ls -l
+total 1
+-rw-r--r-- 1 Airin 197121 5 Feb 21 06:05 README.md
+-rw-r--r-- 1 Airin 197121 0 Feb 21 06:07 new.txt
+
+4) Добавить файл под гит.
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ git add new.txt
+5) Закоммитить файл.
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ git commit -m "modification_1"
+
+6) Отправить файл на внешний GitHub репозиторий.
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ git push
+
+7) Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ vim new.txt
+
+8) Отправить изменения на внешний репозиторий.
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ git add new.txt
+$ git commit -m "Modification_2"
+$ git push
+
+9) Создать файл preferences.txt
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ touch prefernces.txt
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ ls -l
+total 2
+-rw-r--r-- 1 Airin 197121  5 Feb 21 06:05 README.md
+-rw-r--r-- 1 Airin 197121 90 Feb 21 06:12 new.txt
+-rw-r--r-- 1 Airin 197121  0 Feb 21 06:16 prefernces.txt
+
+10) В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ vim prefernces.txt
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ cat prefernces.txt
+Preferences:
+favorite_film: Lord_of_the_rings
+favorite_serial: er
+favorite_dish: hamburger
+favorite_season: spring
+interesting_country: japan
+
+11) Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ touch skills.txt
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ ls -l
+total 3
+-rw-r--r-- 1 Airin 197121   5 Feb 21 06:05 README.md
+-rw-r--r-- 1 Airin 197121  90 Feb 21 06:12 new.txt
+-rw-r--r-- 1 Airin 197121 146 Feb 21 06:19 prefernces.txt
+-rw-r--r-- 1 Airin 197121   0 Feb 21 06:20 skills.txt
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ vim skills.txt
+
+12) Сделать коммит в одну строку.
+$ git add prefernces.txt skills.txt
+$ git commit -m "Modified"
+
+13) Отправить сразу 2 файла на внешний репозиторий.
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ git push
+
+14) На веб интерфейсе создать файл bug_report.txt.
+15) Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+16) На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+17) Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+18) Синхронизировать внешний и локальный репозиторий TXT/
+$ git pull
+Airin@Airin-PC MINGW64 ~/TXT (main)
+$ ls -l
+total 11
+-rw-r--r-- 1 Airin 197121    5 Feb 21 06:05 README.md
+-rw-r--r-- 1 Airin 197121  606 Feb 21 06:28 bug_report.txt
+-rw-r--r-- 1 Airin 197121   90 Feb 21 06:12 new.txt
+-rw-r--r-- 1 Airin 197121  146 Feb 21 06:19 prefernces.txt
+-rw-r--r-- 1 Airin 197121 2508 Feb 21 06:21 skills.txt
