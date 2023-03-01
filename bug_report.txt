@@ -1,0 +1,20 @@
+Bug_report
+Bug_name:"XXXXXXXXXXXX"
+Bug_ID: "12345678"
+Build_number:"YYYYYYYYY"
+Severity: HIGH (High/Medium/Low) or 1
+Priority: HIGH (High/Medium/Low) or 1
+Assigned_to: Developer-X
+Reported_By: Your Name
+Reported_On: Date
+Reason": Defect
+Status: New/Open/Active (Depends on the Tool you are using)
+Environment: Windows 2003/SQL Server 2005
+Description: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+Steps_to_Reproduce:
+  1) XXXXXXXXXXXXXXX
+  2) YYYYYYYYYYYYYYY
+  3) ZZZZZZZZZZZZZZZZ
+Expected_Result:XXXXXXXXXXXXXXXXXXXXXXXXXXX
+Actual_results:YYYYYYYYYYYYYYYYYYYYYYYYYYYY
+Screenshot:"link"
